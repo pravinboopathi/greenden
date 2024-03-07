@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        .header {
+            background-color: green;
+            height: 50px;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 26px;
+        }
+
+        .second {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+
+        .aside {
+            background-color: greenyellow;
+            color: white;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            margin: 5px;
+        }
+
+        .article {
+            background-color: orange;
+            color: white;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            height: 500px;
+            margin: 5px;
+        }
+
+        .img{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            margin-top:380px ;
+            gap: 50px;
+        }
+
+        .img1, .img2, .img3{
+            background-color: yellow;
+            color: white;
+            width: 100px;
+            margin: 5px;
+        }
+        .footer{
+            background-color: green;
+            color: white;
+            font-size: 26px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+
+    <div class="header">
+        Header
+    </div>
+
+    <div class="second">
+        <div class="aside">Aside</div>
+        <div class="article">Article
+
+            <div class="img">
+                <div class="img1">img1</div>
+                <div class="img2">img2</div>
+                <div class="img3">img3</div>
+            </div>
+
+        </div>
+    </div>
+
+<div class="footer">Footer</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
